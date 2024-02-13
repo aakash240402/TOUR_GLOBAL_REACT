@@ -1,0 +1,85 @@
+.travel-offers-container {
+    text-align: center;
+  }
+  
+  .travel-offers-heading {
+    margin-bottom: -4px;;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  
+  .travel-offers-content {
+    
+    display: flex;
+    justify-content: center;
+  }
+  
+  .offer-item {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .offer-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .content-heading {
+    margin-bottom: -3px;
+    font-weight: bold;
+  }
+  
+  .content-body {
+    margin-top: 5px;
+    font-size: 0.9em;
+  }
+  .read-more-button {
+    background-color: darkorange;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius:104px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .read-more-button:hover {
+    background-color: #0056b3;
+  }
+
+  .h {
+    font-family: sans-serif;
+    margin: 100px auto;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 7500;
+    max-width: 600px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  
+  .h:before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #666;
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+  
+  .h:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #666;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }

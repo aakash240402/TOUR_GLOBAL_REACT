@@ -1,0 +1,94 @@
+.best-places-container {
+    text-align: center;
+  }
+  
+  .bp-heading {
+    font-family: sans-serif;
+    margin: 100px auto;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 7500;
+    max-width: 600px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+  
+  .bp-heading:before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #666;
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+  
+  .bp-heading:after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #666;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
+  
+  .best-places-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .best-place-item {
+    width: 270px;
+    margin: 10px;
+    text-align: left;
+  }
+  
+  .best-place-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .best-content-heading {
+    margin-top: -3px;
+    margin-bottom: 3px;
+    font-weight: 10px;
+  }
+  
+  .best-content-body {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #666;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+   
+  .subheading {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+  }
+  
+  .pagination-indicators {
+    position: relative;
+    margin-top: -10px;
+    margin-left: 240px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .pagination-dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+  }
+  .pagination-dot.black {
+    background-color: #000;
+  }
